@@ -26,14 +26,36 @@
 
 ### Features
 
-- Search songs from multiple providers (Atlas, Orion, Helios, and Nyx) from a single unified interface.
-- Stream tracks with provider-aware playback status (including local playback when a track is already downloaded).
-- Create, manage, and delete playlists with support for custom covers and reusable dialog-driven flows.
-- Browse playlists in both box and row layouts, with per-playlist track search and smooth page transitions.
-- Download tracks manually or enable **Download while streaming** for automatic offline saving.
-- Manage local downloads in a dedicated table view with multi-select actions (add to playlist, delete, and bulk operations).
-- Use a persistent local SQLite database (Drizzle ORM) for playlists, downloads, settings, and app state snapshots.
-- Configure preferred server/provider, storage capacity limits, update behavior, and server health checks from Settings.
+- Search tracks across multiple providers from one place.
+- Fall back to another provider automatically when one is unavailable.
+- Stream music with playback controls, queue navigation, shuffle, and repeat.
+- Play downloaded tracks locally for a smoother offline experience.
+- Explore album details and download full albums in a few clicks.
+- Create playlists, add custom covers, bookmark favorites, and search within them.
+- Download single tracks or queue bulk downloads from albums and playlists.
+- Monitor active downloads with pause, resume, terminate, and retry controls.
+- Turn on auto-download for newly added playlist tracks.
+- Read synced or plain lyrics while a song is playing.
+- Manage downloaded songs with quick actions for playlists and cleanup.
+- Playlists, downloads, settings, and logs are saved locally with SQLite.
+
+
+### FAQ
+
+**Is this software free?**  
+Yes. Kaizer is free to use.
+
+**Do I need to create an account, log in, or pay for a subscription?**  
+No. There is no login, registration, or subscription required.
+
+**Where does the audio come from?**  
+Audio and metadata are provided through third-party APIs used by the app.
+
+**What format are downloaded tracks saved in?**  
+Downloaded tracks are saved in FLAC format.
+
+**Why does my antivirus flag the app?**  
+The software is not intended to be malware. Some Electron apps or unsigned builds can trigger antivirus false positives. If that happens, it is most likely a false positive _(source: trust me bro)_.
 
 
 
