@@ -16,31 +16,25 @@
   </p>
 </div>
 
-
-
 ## Preview
 
-![kaizer_preview](assets/preview.png)
+![kaizer_preview](assets/preview-v1-0-0.png)
 
+## Features
 
-
-### Features
-
-- Search tracks across multiple providers from one place.
-- Fall back to another provider automatically when one is unavailable.
-- Stream music with playback controls, queue navigation, shuffle, and repeat.
-- Play downloaded tracks locally for a smoother offline experience.
-- Explore album details and download full albums in a few clicks.
-- Create playlists, add custom covers, bookmark favorites, and search within them.
-- Download single tracks or queue bulk downloads from albums and playlists.
-- Monitor active downloads with pause, resume, terminate, and retry controls.
-- Turn on auto-download for newly added playlist tracks.
+- Search tracks across multiple providers from one place with automatic fallback when a source is unavailable.
+- Stream music in-app with playback controls, queue navigation, shuffle, repeat, and playlist-backed queue handling.
+- Play downloaded tracks locally for smoother offline playback.
+- Explore album details, inspect track listings, and download full albums in a few clicks.
+- Create and manage playlists with custom covers, favorites, playlist search, and playlist-focused playback controls.
+- Download single tracks or queue batch downloads from albums and playlists with pause, resume, terminate, and retry controls.
+- Turn on auto-download for newly added playlist tracks and manage downloaded songs with quick cleanup actions.
 - Read synced or plain lyrics while a song is playing.
-- Manage downloaded songs with quick actions for playlists and cleanup.
+- Export and import backups for your local data, artwork, and optional downloaded tracks.
+- Configure storage capacity, preferred server selection, and server health refresh from Settings.
 - Playlists, downloads, settings, and logs are saved locally with SQLite.
 
-
-### FAQ
+## Frequently Asked Questions
 
 **Is this software free?**  
 Yes. Kaizer is free to use.
@@ -54,12 +48,27 @@ Audio and metadata are provided through third-party APIs used by the app.
 **What format are downloaded tracks saved in?**  
 Downloaded tracks are saved in FLAC format.
 
+**Will there be an option to download other formats?**  
+No. Kaizer is focused on FLAC, because why bother downgrading the quality? Other download formats are not planned.
+
 **Why does my antivirus flag the app?**  
 The software is not intended to be malware. Some Electron apps or unsigned builds can trigger antivirus false positives. If that happens, it is most likely a false positive _(source: trust me bro)_.
 
+## Donate
 
+If you want to support Kaizer, you can donate through crypto. The goal is to help fund Kaizer's own backend in the future so the app can become more independent instead of relying on external APIs long-term.
 
-### Disclaimer
+**Solana**  
+```
+DZpP5We6oLqW3XAi9ProBp23LHwdaAUajxXGUzFfHRZY
+```
+
+**Ethereum**  
+```
+0xd04eA67E6E92f2adc038e10dF173714D8851bed6
+```
+
+## Disclaimer
 This project is intended for **educational and private use only**. The developer does not condone or encourage **copyright infringement**.
 
 This is a third-party tool and is not affiliated with, endorsed by, or connected to any streaming service or platform.
