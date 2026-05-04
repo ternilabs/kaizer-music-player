@@ -4,17 +4,10 @@
   </a>
 
 <h3 align="center">kaizer-music-player</h3>
-
-  <p align="center">
-    Your personal music player.
-    <br />
-    <a href="https://github.com/TerniLabs/kaizer-music-player/releases">Download</a>
-    &middot;
-    <a href="https://github.com/TerniLabs/kaizer-music-player/issues/new?template=bug_report.md">Report a bug</a>
-    &middot;
-    <a href="https://github.com/TerniLabs/kaizer-music-player/issues/new?template=request_feature.md">Request a feature</a>
-  </p>
 </div>
+
+> [!IMPORTANT]
+> The developers decided to discontinue this project because the third-party APIs used for streaming have gradually become unreliable. However, the project will be released as **open source** soon.
 
 ## Preview
 
@@ -53,20 +46,6 @@ No. Kaizer is focused on FLAC, because why bother downgrading the quality? Other
 
 **Why does my antivirus flag the app?**  
 The software is not intended to be malware. Some Electron apps or unsigned builds can trigger antivirus false positives. If that happens, it is most likely a false positive _(source: trust me bro)_.
-
-## Donate
-
-If you want to support Kaizer, you can donate through crypto. The goal is to help fund Kaizer's own backend in the future so the app can become more independent instead of relying on external APIs long-term.
-
-**Solana**  
-```
-DZpP5We6oLqW3XAi9ProBp23LHwdaAUajxXGUzFfHRZY
-```
-
-**Ethereum**  
-```
-0xd04eA67E6E92f2adc038e10dF173714D8851bed6
-```
 
 ## Disclaimer
 This project is intended for **educational and private use only**. The developer does not condone or encourage **copyright infringement**.
