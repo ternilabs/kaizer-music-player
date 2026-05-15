@@ -1,0 +1,38 @@
+{
+  "name": "@app/main",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate --config ./drizzle.config.ts",
+    "db:migrate": "drizzle-kit migrate --config ./drizzle.config.ts"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/**",
+    "package.json",
+    "drizzle/*.sql",
+    "drizzle/meta/**"
+  ],
+  "dependencies": {
+    "@app/preload": "*",
+    "@app/renderer": "*",
+    "better-sqlite3": "^12.6.2",
+    "drizzle-orm": "^0.45.1",
+    "electron-updater": "6.7.3",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@app/electron-versions": "*",
+    "@types/better-sqlite3": "^7.6.13",
+    "drizzle-kit": "^0.31.9",
+    "electron-devtools-installer": "4.0.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  }
+}

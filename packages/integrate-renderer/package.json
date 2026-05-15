@@ -1,0 +1,9 @@
+{
+  "name": "@app/integrate-renderer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js --no-warnings"
+  },
+  "files": []
+}
