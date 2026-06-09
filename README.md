@@ -7,11 +7,10 @@
 </div>
 
 > [!IMPORTANT]
-> - The developer (well me) decided to discontinue this project because the third-party APIs used for streaming have gradually become unreliable. ~~However, the project will be released as **open source** soon.~~
-> - I'll be creating a `/docs` folder and an `AGENTS.md` file, but not right now.
+> The developer (well me) decided to discontinue this project because the third-party APIs used for streaming have gradually become unreliable. However, the project will be released as **open source**.
 
 > [!NOTE]
-> This codebase was assisted with coding agent **Codex GPT-5.3** using high intelligence and a well-structured **product requirements document** to help fully build the project, although I still think the implementation is somewhat sloppy.
+> This codebase was assisted with coding agent **Codex GPT-5.3** (_rest in peace_) using high intelligence and a well-structured **product requirements document** to help fully build the project, although I still think the implementation is somewhat sloppy.
 
 ## Preview
 
